@@ -11,7 +11,7 @@ const Page = () => {
     setItems([...items, item]);
   };
   return (
-    <main className="bg-gray-200 min-h-screen p-6">
+    <main className="bg-black min-h-screen p-6">
       <h1 className="text-3xl font-semibold mb-4">Shopping List</h1>
       <NewItem onAddItem={handleAddItem} />
       <ItemList items={items} />

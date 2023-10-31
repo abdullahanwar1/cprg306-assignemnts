@@ -24,9 +24,8 @@ const NewItem = ({ onAddItem }) => {
 
   return (
     <div className="max-w-md mx-auto mt-6 p-6 bg-grey rounded-lg shadow-lg">
-    <h2 className="text-2xl font-semibold mb-4">Add a New Item</h2>
-    <form onSubmit={handleSubmit}>
-      {/* Name Field */}
+      <h2 className="text-2xl font-semibold mb-4">Add a New Item</h2>
+      <form onSubmit={handleSubmit}>
         {/* Name Field */}
         <div className="mb-4">
           <label htmlFor="name" className="block text-white">Name:</label>
