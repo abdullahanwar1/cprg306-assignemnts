@@ -18,6 +18,8 @@ export default function Page()
             <Link href="\week6">week6</Link>
             <p></p>
             <Link href="\week7">week7</Link>
+            <p></p> 
+            <Link href="\week8">week8</Link>
         </div>
     )
 }    
